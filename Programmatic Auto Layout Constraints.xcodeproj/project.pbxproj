@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D86FDC5A2217485B00C080DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC592217485B00C080DF /* AppDelegate.swift */; };
-		D86FDC5C2217485B00C080DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC5B2217485B00C080DF /* ViewController.swift */; };
 		D86FDC5F2217485B00C080DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86FDC5D2217485B00C080DF /* Main.storyboard */; };
 		D86FDC622217485B00C080DF /* Programmatic_Auto_Layout_Constraints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC602217485B00C080DF /* Programmatic_Auto_Layout_Constraints.xcdatamodeld */; };
 		D86FDC642217485C00C080DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86FDC632217485C00C080DF /* Assets.xcassets */; };
 		D86FDC672217485C00C080DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86FDC652217485C00C080DF /* LaunchScreen.storyboard */; };
 		D86FDC722217485C00C080DF /* Programmatic_Auto_Layout_ConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC712217485C00C080DF /* Programmatic_Auto_Layout_ConstraintsTests.swift */; };
 		D86FDC7D2217485C00C080DF /* Programmatic_Auto_Layout_ConstraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC7C2217485C00C080DF /* Programmatic_Auto_Layout_ConstraintsUITests.swift */; };
+		D86FDC8B2217488300C080DF /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC8A2217488300C080DF /* AutoLayoutViewController.swift */; };
+		D86FDC8D221753A700C080DF /* AutoLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FDC8C221753A700C080DF /* AutoLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		D86FDC562217485B00C080DF /* Programmatic Auto Layout Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic Auto Layout Constraints.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FDC592217485B00C080DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D86FDC5B2217485B00C080DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D86FDC5E2217485B00C080DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D86FDC612217485B00C080DF /* Programmatic_Auto_Layout_Constraints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Programmatic_Auto_Layout_Constraints.xcdatamodel; sourceTree = "<group>"; };
 		D86FDC632217485C00C080DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		D86FDC782217485C00C080DF /* Programmatic Auto Layout ConstraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic Auto Layout ConstraintsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FDC7C2217485C00C080DF /* Programmatic_Auto_Layout_ConstraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_Auto_Layout_ConstraintsUITests.swift; sourceTree = "<group>"; };
 		D86FDC7E2217485C00C080DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86FDC8A2217488300C080DF /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
+		D86FDC8C221753A700C080DF /* AutoLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				D86FDC592217485B00C080DF /* AppDelegate.swift */,
-				D86FDC5B2217485B00C080DF /* ViewController.swift */,
+				D86FDC8A2217488300C080DF /* AutoLayoutViewController.swift */,
+				D86FDC8C221753A700C080DF /* AutoLabelViewController.swift */,
 				D86FDC5D2217485B00C080DF /* Main.storyboard */,
 				D86FDC632217485C00C080DF /* Assets.xcassets */,
 				D86FDC652217485C00C080DF /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86FDC5C2217485B00C080DF /* ViewController.swift in Sources */,
+				D86FDC8D221753A700C080DF /* AutoLabelViewController.swift in Sources */,
 				D86FDC5A2217485B00C080DF /* AppDelegate.swift in Sources */,
 				D86FDC622217485B00C080DF /* Programmatic_Auto_Layout_Constraints.xcdatamodeld in Sources */,
+				D86FDC8B2217488300C080DF /* AutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
